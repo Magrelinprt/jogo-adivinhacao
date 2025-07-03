@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joda da Adivinhação</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Jogo da Adivinhação</h1>
+
+    <main>
+        <div id="tela-inicial">
+            <p>Pense em um número de 0 a 1000, que vou adivinhar em até 10 tentativas</p>
+            <button id="btn-comecar">Começar</button>
+        </div>
+
+        <div id="tela-jogo" class="escondido">
+            <p>Tentativa #<span id="tentativa">1</span>: O número que você pensou é <span id="palpite">500</span>?</p>
+            <button id="btn-menor">É menor</button>
+            <button id="btn-acertou">Acertou</button>
+            <button id="btn-maior">É maior</button>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
